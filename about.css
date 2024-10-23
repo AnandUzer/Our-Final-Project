@@ -458,7 +458,7 @@ footer{
   }
 }
 
-@media (min-width:100px) and (max-width:381px){
+@media (min-width:100px) and (max-width:380px){
   #footer #footerContent img{
     position: absolute;
     top:0px;
