@@ -493,12 +493,27 @@ footer {
   }
 }
 
-@media (min-width:100px) and (max-width:380px){
-  #footer #footerContent img{
+@media (min-width:100px) and (max-width:375px){
+  #footer #footerContent i{
+    font-size: 28px;
+    margin-left: 10px;
+}
+#footer #footerContent{
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+#footer #footerContent img{
     position: absolute;
-    top:0px;
-    left:43%;
-  }
+    left:35%;
+}
+#footer #footerContent h3{
+    font-size: 18px;
+    margin: 0;
+}
+footer{
+  font-size: 18px;
+    padding: 10px 0;
+}
   #menus{
     display: block;
     /* padding: 30px 0 30px 100px; */
@@ -512,6 +527,45 @@ footer {
     height: 170px;
     margin: 10px 10px;
     object-fit: cover;
+  }
+  #amaDiv{
+    background-color: white;
+    margin-top: 80px;
+  }
+  #amaDiv #apa{
+    font-size: 20px;
+  }
+  div#acho img {
+    width: 220px;
+    height: 220px;
+    margin: 20px auto;
+    display: flex;
+    object-fit: cover;
+  }
+  #menus {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+  }
+  #menus img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px;
+    object-fit: cover;
+  }
+  #menusOne .first-menu h4, .second-menu h4, .third-menu h4{
+    text-align: center;
+    font-size: 13px;
+    
+  }
+  #menusOne .first-menu h1, .second-menu h1, .third-menu h1{
+    margin: 0 auto;
+    padding:10px 0;
+    font-size: 24px; 
+    width:150px;
+  }
+  .second-menu, .third-menu{
+    margin-top: 20px;
   }
 
 }
