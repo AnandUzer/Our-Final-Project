@@ -236,6 +236,9 @@ header{
 }
 #socialMedia i:hover{
     color: orange;
+    transform: scale(1.5);
+    transition: all 1.1s ease-in-out;
+    cursor: pointer;
 
 }
 
@@ -757,8 +760,8 @@ header{
     height: 200px;
 
 }
-#orderFood:hover{
-    transform: scale(1.1);
+#orderFood h1:hover{
+    transform: scale(1.5);
     transition: all 0.7s ease-in-out;
     cursor: pointer; 
 }

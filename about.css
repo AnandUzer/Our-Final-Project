@@ -193,6 +193,9 @@ header{
 }
 #socialMedia i:hover{
   color: orange;
+  transform: scale(1.5);
+    transition: all 1.1s ease-in-out;
+    cursor: pointer;
 }
 
 #socialMedia::after{
