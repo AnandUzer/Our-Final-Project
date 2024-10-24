@@ -80,6 +80,16 @@ header{
 #mainMenucontainer{
     overflow: hidden;
 }
+#menuDescription h1:hover{
+    transform: scale(1.5);
+    transition: all 1.8s ease-in-out;
+    cursor: pointer;
+}
+#menuDescription:hover{
+    transform: scale(1.1);
+    transition: all 1.8s ease-in-out;
+    cursor: pointer;
+}
 
 @media(max-width: 480px){
     .menu{
@@ -437,7 +447,7 @@ header{
     background-color: rgb(242, 93, 66);
     color: white;
     height: 200px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /* Mainmenu List */
@@ -746,6 +756,11 @@ header{
     color: white;
     height: 200px;
 
+}
+#orderFood:hover{
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+    cursor: pointer; 
 }
 
 #map{
